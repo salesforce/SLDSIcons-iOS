@@ -1,17 +1,17 @@
 # SLDSIcons
 
-Salesforce Lightning Design System Icons for iOS.
+A Swift library for accessing Salesforce Lightning Design System (SLDS) icons in iOS applications.
 
 ## Overview
 
-SLDSIcons provides SLDS icons from the [`@salesforce-ux/icons`](https://www.npmjs.com/package/@salesforce-ux/icons) npm package for iOS applications. Icons are stored as SVG files in `.xcassets` imagesets, preserving vector quality at any size.
+SLDSIcons is a pre-compiled binary framework (XCFramework) that provides a SwiftUI API for loading and rendering SLDS icons sourced from the [`@salesforce-ux/icons`](https://www.npmjs.com/package/@salesforce-ux/icons) npm package. Icons are bundled inside the framework as SVG files in `.xcassets` imagesets, preserving vector quality at any size. Developers interact with icons through code APIs — not by accessing raw image files directly.
 
 ### Features
 
+- **SwiftUI API**: Programmatic access to icons via `SLDSIcons.icon()` and category-specific methods
 - **Dynamic Categories**: All icon categories from the npm package are automatically discovered and included
 - **Vector SVGs**: Icons maintain crisp quality at any size
 - **Template Rendering**: Utility icons render as templates (tintable), others preserve original colors
-- **SwiftUI Support**: Easy-to-use API for SwiftUI views
 
 ## Installation
 
@@ -209,4 +209,4 @@ Please follow our [Code of Conduct](CODE_OF_CONDUCT.md).
 
 ## License
 
-SLDSIcons is available under the Apache 2.0 license. See the [LICENSE.txt](LICENSE.txt) file for more info.
+SLDSIcons is available under the terms specified in the [TERMS_OF_USE.txt](TERMS_OF_USE.txt) file.
