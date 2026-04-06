@@ -26,7 +26,7 @@ let package = Package(
         .binaryTarget(
             name: "SLDSIcons",
             url: "https://github.com/salesforce/SLDSIcons-iOS/releases/download/1.2.2/SLDSIcons.xcframework.zip",
-            checksum: "32ee9fbb6ea6d7f9d9bb5ba3b56b4ce8e1f89854f485d0a17cde952af10452d8"
+            checksum: "be2cc777a62dc440aafd61f7d55f1f7b6c6df78e01d582c3fd9afec91e921f0f"
         ),
     ]
 )
